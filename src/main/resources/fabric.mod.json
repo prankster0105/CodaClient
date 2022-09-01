@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "codaclient",
+  "version": "${version}",
+
+  "name": "coda client",
+  "description": "not an fps spoofer",
+  "authors": [
+    "Codable"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/codaclient/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.codable.codaclient.Main"
+    ],
+    "modmenu": [
+      "net.codable.codaclient.config.ModMenuIntegration"
+    ]
+
+
+  },
+  "mixins": [
+    "codaclient.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
