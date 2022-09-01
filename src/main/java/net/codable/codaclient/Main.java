@@ -28,6 +28,7 @@ public class Main implements ModInitializer {
 			// if multiplier is not 0, keep as-is, otherwise change it to 1
 			int multiplier = (CONFIG.FPS_MULTIPLIER != 0 ? CONFIG.FPS_MULTIPLIER : 1);
 			int fps = ((MinecraftClientMixin) client).getCurrentFps() * multiplier;
+			// yes
 			client.fpsDebugString = fps + " fps T: inffast B: 0";
 		});
 
