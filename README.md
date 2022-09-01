@@ -1,9 +1,16 @@
-# Fabric Example Mod
+# CodaClient
 
-## Setup
+## Installation 
+Go to 'Releases' and download the latest release, place the .jar in your mods folder. As far as I know, it should work for any version from 1.16 and up
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+The mod is only for Fabric, there are no plans of porting to a Forge version
 
-## License
+## About
+Name says it all: CodaClient.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+It is definitely a client.
+
+The client provides a substantial increase in FPS and improvement in performance in general, repairing many things and by default is bundled with LazyDFU optimisation (definitely), alongside a fix in the leading cause of memory leaks on the JVM.
+
+##Contact: 
+_cøda#7406 on Discord
