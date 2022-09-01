@@ -12,5 +12,5 @@ It is definitely a client.
 
 The client provides a substantial increase in FPS and improvement in performance in general, repairing many things and by default is bundled with LazyDFU optimisation (definitely), alongside a fix in the leading cause of memory leaks on the JVM.
 
-##Contact: 
+### Contact
 _cøda#7406 on Discord
